@@ -1,0 +1,30 @@
+{
+  "name": "lambda-api-template",
+  "version": "1.0.0",
+  "description": "lambda function that is a template for a simple API",
+  "main": "index.js",
+  "scripts": {
+    "test": "not yet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juanmera01/lambda-api-template.git"
+  },
+  "author": "juannmera3@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "jest-junit": "^14.0.1"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.312.0",
+    "@aws-sdk/client-s3": "^3.758.0",
+    "@google/generative-ai": "^0.24.0",
+    "aws-sdk": "^2.1692.0",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "jsonwebtoken": "^9.0.2",
+    "puppeteer": "^24.4.0",
+    "showdown": "^2.1.0"
+  }
+}
